@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AdminControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AnalyzeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CreateEventsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DashboardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EventListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mainDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MemberControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ProfileAdminControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ProfileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RegisterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AddMemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="TrackEventControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
