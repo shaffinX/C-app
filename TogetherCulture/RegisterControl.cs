@@ -64,7 +64,8 @@ namespace TogetherCulture
                     SELECT user_id, '{memty}', '{interest1.Text}' FROM inserted_user;";
                     if (DBSingleton.Instance.ExecuteUpdate(query))
                     {
-                        err.Text = "REG";
+                        MessageBox.Show("You Have Been Registered");
+                        SwitchToUserControl(typeof(LoginControl));
                     }
                     else
                     {

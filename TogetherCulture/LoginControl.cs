@@ -107,6 +107,10 @@ namespace TogetherCulture
                     err.Text = "Sorry! But you are not a member yet.";
                 }
             }
+            else
+            {
+                err.Text = "Please Fill all Fields";
+            }
         }
     }
 }
